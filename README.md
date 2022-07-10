@@ -4,26 +4,27 @@ telegram бот, имитирующий простейшее управлени�
 ## Интерфейс
 1. Возможность просмотреть информацию о магазине, настройки и приступить к выбору товара  
 
-![MarineGEO circle logo](interface_screen/Screenshot_1.png "MarineGEO logo")  
+![Screenshot_1](interface_screen/Screenshot_1.png "Screenshot_1")  
 
 2. Просмотр информации о магазине, возможность вернуться на стартовую страницу  
 
-![MarineGEO circle logo](interface_screen/Screenshot_2.png "MarineGEO logo")  
+![Screenshot_2.png](interface_screen/Screenshot_2.png "Screenshot_2.png")  
 
 3. Выбор категории продукта в нижнем меню, выбор продукта и добавление его в заказ в инлайн меню  
 
-![MarineGEO circle logo](interface_screen/Screenshot_3.png "MarineGEO logo")  
+![Screenshot_3.png](interface_screen/Screenshot_3.png "Screenshot_3.png")  
 
 4. Просмотр информации по товарам в заказе, возможность переходить между позициями заказа и изменять количество единиц товара, возможность оформить заказ  
 
-![MarineGEO circle logo](interface_screen/Screenshot_4.png "MarineGEO logo")
+![Screenshot_4.png](interface_screen/Screenshot_4.png "Screenshot_2.png")
 
 5. Заказ отпрален на склад, выведена информация о заказе  
 
-![MarineGEO circle logo](interface_screen/Screenshot_5.png "MarineGEO logo")  
+![Screenshot_5.png](interface_screen/Screenshot_5.png "Screenshot_5.png")  
 
 ## Запуск проекта
 1. Клонировать репозиторий
-2. В директории store_telegram_bot\setttings заполнить файл .env.template и переименовать его в .env
-3. Для создания тестовой базы данных и наполнения ее данными можно запустить скрипт store_telegram_bot\data_base\create_and_fill_DB.py
-4. Запустить скрипт store_telegram_bot\telegram_bot.py
+2. Установить зависимости pip install -r requirements.txt
+3. В директории store_telegram_bot\setttings заполнить файл .env.template (токен телеграмм бота) и переименовать его в .env
+4. Для создания тестовой базы данных и наполнения ее данными можно запустить скрипт store_telegram_bot\data_base\create_and_fill_DB.py
+5. Запустить скрипт store_telegram_bot\telegram_bot.py
