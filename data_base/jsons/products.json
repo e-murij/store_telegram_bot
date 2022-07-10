@@ -1,0 +1,44 @@
+[
+  {
+      "name": "Вареники",
+      "title": "ТМ Геркулес 400 гр",
+      "price": 500,
+      "quantity": 53,
+      "category_id": 1
+  },
+  {
+      "name": "Пельмени",
+      "title": "ТМ Вкуснотеево 450 гр",
+      "price": 300,
+      "quantity": 55,
+      "category_id": 1
+  },
+  {
+      "name": "Колбаса",
+      "title": "ТМ Доброе 500 гр",
+      "price": 250,
+      "quantity": 88,
+      "category_id": 2
+  },
+  {
+      "name": "Сосиски",
+      "title": "ТМ Веселые 700 гр",
+      "price": 280,
+      "quantity": 44,
+      "category_id": 2
+  },
+  {
+      "name": "Крем-брюле",
+      "title": "ТМ Молочный берег 50 гр",
+      "price": 80,
+      "quantity": 100,
+      "category_id": 3
+  },
+  {
+      "name": "Стаканчик",
+      "title": "ТМ Молочный берег 50 гр",
+      "price": 50,
+      "quantity": 46,
+      "category_id": 3
+  }
+]
